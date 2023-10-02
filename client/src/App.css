@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing {
+    position: relative;
+    background: url('./assests/landing.jpg') no-repeat center center/cover;
+    height: 100vh
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.landing-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.landing-inner form {
+    width: 30%;
+}
+
+.course-button {
+    background-color: #fff;
+}
